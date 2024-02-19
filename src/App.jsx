@@ -4,7 +4,6 @@ function App() {
   return (
     <>
       <AppRoutes />
-      <h1>Oeste foods</h1>
     </>
   )
 }
