@@ -8,7 +8,11 @@ export default {
     extend: {
       colors: {
         'custom-black': '#292929',
-        'custom-red': '#DA2535'
+        'custom-red': '#DA2535',
+        'custom-white': '#FBFBFB',
+      },
+      width: {
+        'custom-button': '312px'
       }
     },
   },
