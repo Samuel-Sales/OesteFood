@@ -18,7 +18,29 @@ export default function Main() {
                 <p className="font-normal text-base text-center ml-3 mr-3 mb-6">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <Link className="text-custom-red border-b border-custom-red font-medium text-base ml-12 mb-14" to=''>Ler mais sobre o modo de preparo</Link>
+                <Link className="text-custom-red border-b border-custom-red font-medium text-base ml-12" to=''>Ler mais sobre o modo de preparo</Link>
+            </section>
+
+            <section className="text-center text-custom-black">
+                <h2 className="font-semibold text-2xl mt-14 mb-20">Mais populares</h2>
+                <img className="ml-20 mb-8" src="/RamenDeFrango.svg" alt="Ramen de Frango" />
+                <p className="mb-4 font-medium text-2xl">Ramen de Frango</p>
+                <p className="mb-3.5 font-normal text-base text-custom-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p className="font-normal text-3xl">R$ 30</p>
+            </section>
+
+            <section className="text-center text-custom-black mt-14">
+                <img className="ml-20 mb-8" src="/RamenApimentado.svg" alt="Ramen de Frango" />
+                <p className="mb-4 font-medium text-2xl">Ramen Apimentado</p>
+                <p className="mb-3.5 font-normal text-base text-custom-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p className="font-normal text-3xl">R$ 30</p>
+            </section>
+
+            <section className="text-center text-custom-black mt-14">
+                <img className="ml-20 mb-8" src="/RamenTradicional.svg" alt="Ramen de Frango" />
+                <p className="mb-4 font-medium text-2xl">Ramen Tradicional</p>
+                <p className="mb-3.5 font-normal text-base text-custom-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p className="font-normal text-3xl">R$ 30</p>
             </section>
         </>
     );

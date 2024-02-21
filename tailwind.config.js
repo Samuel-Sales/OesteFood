@@ -10,6 +10,7 @@ export default {
         'custom-black': '#292929',
         'custom-red': '#DA2535',
         'custom-white': '#FBFBFB',
+        'custom-gray': '#616161',
       },
       width: {
         'custom-button': '312px'
