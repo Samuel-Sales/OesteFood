@@ -42,6 +42,25 @@ export default function Main() {
                 <p className="mb-3.5 font-normal text-base text-custom-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <p className="font-normal text-3xl">R$ 30</p>
             </section>
+
+            <section className="mt-14 text-custom-black">
+                <h2 className="font-semibold text-2xl text-center mb-10">Comentários</h2>
+                <div className="flex flex-col justify-center items-center text-center mb-7 ml-6 mr-6 p-4 bg-custom-bg rounded">
+                    <img className="w-custom-img mb-4" src="/ImagemPerfil1.svg" alt="Foto de perfil" />
+                    <h3 className="font-medium text-lg mb-4">Daniele Almeida</h3>
+                    <p className="font-normal text-base text-custom-gray mb-2">Ótimo serviço! Encantada com a qualidade dos pratos.</p>
+                    <img className="w-custom-estrelas h-custom-estrelas" src="/estrelas.svg" alt="Nota do servico" />
+                </div>
+            </section>
+
+            <section className="mt-14 text-custom-black">
+                <div className="flex flex-col justify-center items-center text-center mb-7 ml-6 mr-6 p-4 bg-custom-bg rounded">
+                    <img className="w-custom-img mb-4" src="/ImagemPerfil2.svg" alt="Foto de perfil" />
+                    <h3 className="font-medium text-lg mb-4">Ricardo França</h3>
+                    <p className="font-normal text-base text-custom-gray mb-2">Não é apenas a comida excelente, o serviço torna a experiência especial.</p>
+                    <img className="w-custom-estrelas h-custom-estrelas" src="/estrelas.svg" alt="Nota do servico" />
+                </div>
+            </section>
         </>
     );
 };

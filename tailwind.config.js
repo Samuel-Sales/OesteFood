@@ -11,10 +11,16 @@ export default {
         'custom-red': '#DA2535',
         'custom-white': '#FBFBFB',
         'custom-gray': '#616161',
+        'custom-bg': '#F3F3F3',
       },
       width: {
-        'custom-button': '312px'
-      }
+        'custom-button': '312px',
+        'custom-img': '60px',
+        'custom-estrelas': '122px'
+      },
+      height: {
+        'custom-estrelas': '19.2px'
+      },
     },
   },
   plugins: [],
